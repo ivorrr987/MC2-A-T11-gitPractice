@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66D1E6A92A08E2100028AA57 /* ShannonView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D1E6A82A08E2100028AA57 /* ShannonView1.swift */; };
 		98262B3C2A08CF6C00A39A88 /* BennyView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98262B3B2A08CF6C00A39A88 /* BennyView1.swift */; };
 		98262B3E2A08D1D200A39A88 /* BennyView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98262B3D2A08D1D200A39A88 /* BennyView2.swift */; };
 		B280A7102A08CCC000AE8469 /* GitPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B280A70F2A08CCC000AE8469 /* GitPracticeApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66D1E6A82A08E2100028AA57 /* ShannonView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShannonView1.swift; path = ../../../../../ShannonView1.swift; sourceTree = "<group>"; };
 		98262B3B2A08CF6C00A39A88 /* BennyView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BennyView1.swift; sourceTree = "<group>"; };
 		98262B3D2A08D1D200A39A88 /* BennyView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BennyView2.swift; sourceTree = "<group>"; };
 		B280A70C2A08CCC000AE8469 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66D1E6A72A08E2000028AA57 /* Shannon */ = {
+			isa = PBXGroup;
+			children = (
+				66D1E6A82A08E2100028AA57 /* ShannonView1.swift */,
+			);
+			path = Shannon;
+			sourceTree = "<group>";
+		};
 		98262B3A2A08CF5300A39A88 /* Benny */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 		B280A71D2A08CCD700AE8469 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				66D1E6A72A08E2000028AA57 /* Shannon */,
 				98262B3A2A08CF5300A39A88 /* Benny */,
 				B280A7222A08CD7900AE8469 /* Root */,
 			);
@@ -200,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98262B3E2A08D1D200A39A88 /* BennyView2.swift in Sources */,
+				66D1E6A92A08E2100028AA57 /* ShannonView1.swift in Sources */,
 				98262B3C2A08CF6C00A39A88 /* BennyView1.swift in Sources */,
 				B280A7122A08CCC000AE8469 /* RootView.swift in Sources */,
 				B280A7102A08CCC000AE8469 /* GitPracticeApp.swift in Sources */,
