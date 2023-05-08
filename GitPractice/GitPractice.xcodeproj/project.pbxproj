@@ -14,7 +14,6 @@
 		B280A7122A08CCC000AE8469 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B280A7112A08CCC000AE8469 /* RootView.swift */; };
 		B280A7142A08CCC100AE8469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B280A7132A08CCC100AE8469 /* Assets.xcassets */; };
 		B280A7172A08CCC100AE8469 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B280A7162A08CCC100AE8469 /* Preview Assets.xcassets */; };
-		B280A7252A08D68100AE8469 /* OllieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B280A7242A08D68100AE8469 /* OllieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		B280A7112A08CCC000AE8469 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		B280A7132A08CCC100AE8469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B280A7162A08CCC100AE8469 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B280A7242A08D68100AE8469 /* OllieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OllieView.swift; path = ../../../../OllieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +95,6 @@
 		B280A71D2A08CCD700AE8469 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				B280A7232A08D65800AE8469 /* Ollie */,
 				66D1E6A42A08D2840028AA57 /* View1 */,
 				98262B3A2A08CF5300A39A88 /* Benny */,
 				B280A7222A08CD7900AE8469 /* Root */,
@@ -139,14 +136,6 @@
 				B280A7112A08CCC000AE8469 /* RootView.swift */,
 			);
 			path = Root;
-			sourceTree = "<group>";
-		};
-		B280A7232A08D65800AE8469 /* Ollie */ = {
-			isa = PBXGroup;
-			children = (
-				B280A7242A08D68100AE8469 /* OllieView.swift */,
-			);
-			path = Ollie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +211,6 @@
 				98262B3E2A08D1D200A39A88 /* BennyView2.swift in Sources */,
 				98262B3C2A08CF6C00A39A88 /* BennyView1.swift in Sources */,
 				B280A7122A08CCC000AE8469 /* RootView.swift in Sources */,
-				B280A7252A08D68100AE8469 /* OllieView.swift in Sources */,
 				B280A7102A08CCC000AE8469 /* GitPracticeApp.swift in Sources */,
 				66D1E6A62A08D2920028AA57 /* SwiftUIView.swift in Sources */,
 			);
