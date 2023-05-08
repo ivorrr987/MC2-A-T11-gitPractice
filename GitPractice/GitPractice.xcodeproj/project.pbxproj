@@ -5,9 +5,11 @@
 	};
 	objectVersion = 56;
 	objects = {
-
+	
 /* Begin PBXBuildFile section */
+		66D1E6A62A08D2920028AA57 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D1E6A52A08D2920028AA57 /* SwiftUIView.swift */; };
 		98262B3C2A08CF6C00A39A88 /* BennyView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98262B3B2A08CF6C00A39A88 /* BennyView1.swift */; };
+		98262B3E2A08D1D200A39A88 /* BennyView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98262B3D2A08D1D200A39A88 /* BennyView2.swift */; };
 		B280A7102A08CCC000AE8469 /* GitPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B280A70F2A08CCC000AE8469 /* GitPracticeApp.swift */; };
 		B280A7122A08CCC000AE8469 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B280A7112A08CCC000AE8469 /* RootView.swift */; };
 		B280A7142A08CCC100AE8469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B280A7132A08CCC100AE8469 /* Assets.xcassets */; };
@@ -16,7 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66D1E6A52A08D2920028AA57 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		98262B3B2A08CF6C00A39A88 /* BennyView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BennyView1.swift; sourceTree = "<group>"; };
+		98262B3D2A08D1D200A39A88 /* BennyView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BennyView2.swift; sourceTree = "<group>"; };
 		B280A70C2A08CCC000AE8469 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B280A70F2A08CCC000AE8469 /* GitPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPracticeApp.swift; sourceTree = "<group>"; };
 		B280A7112A08CCC000AE8469 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -36,10 +40,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66D1E6A42A08D2840028AA57 /* View1 */ = {
+			isa = PBXGroup;
+			children = (
+				66D1E6A52A08D2920028AA57 /* SwiftUIView.swift */,
+			);
+			path = View1;
 		98262B3A2A08CF5300A39A88 /* Benny */ = {
 			isa = PBXGroup;
 			children = (
 				98262B3B2A08CF6C00A39A88 /* BennyView1.swift */,
+				98262B3D2A08D1D200A39A88 /* BennyView2.swift */,
 			);
 			path = Benny;
 			sourceTree = "<group>";
@@ -87,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B280A7232A08D65800AE8469 /* Ollie */,
+				66D1E6A42A08D2840028AA57 /* View1 */,
 				98262B3A2A08CF5300A39A88 /* Benny */,
 				B280A7222A08CD7900AE8469 /* Root */,
 			);
@@ -207,10 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98262B3E2A08D1D200A39A88 /* BennyView2.swift in Sources */,
 				98262B3C2A08CF6C00A39A88 /* BennyView1.swift in Sources */,
 				B280A7122A08CCC000AE8469 /* RootView.swift in Sources */,
 				B280A7252A08D68100AE8469 /* OllieView.swift in Sources */,
 				B280A7102A08CCC000AE8469 /* GitPracticeApp.swift in Sources */,
+				66D1E6A62A08D2920028AA57 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,4 +427,5 @@
 /* End XCConfigurationList section */
 	};
 	rootObject = B280A7042A08CCC000AE8469 /* Project object */;
+}
 }
